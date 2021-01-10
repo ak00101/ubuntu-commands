@@ -1,0 +1,49 @@
+Ls-
+ls (list) command lists all files and folders in your current working directory. You can also specify paths to other directories if you want to view their contents.
+
+cd-
+cd /  – Takes you to the root directory.
+cd .. – Takes you up one directory level.
+cd –  – Takes you to the previous directory.
+
+
+pwd-
+pwd (print working directory) command displays the full pathname of the current working directory.
+
+Rm
+rm (remove) command removes the specified file.
+rmdir (“remove directory”) – Removes an empty directory.
+rm -r (“remove recursively”) – Removes a directory along with its content.
+
+history command displays all of your previous commands up to the history limit
+
+Mv
+mv (move) command allows you to move files. You can also rename files by moving them to the directory they are currently in, but under a new name. The usage is the same as cp – for example mv xyz /home/myfiles would move the file “xyz” to the directory “/home/myfiles”.
+
+-d
+To operate the system on a specific date, you can change the date by using “-d”.
+
+head
+The command “head” prints the top N rows of data of the given input or file. By default, it prints the first 10 lines of the specified files.
+Syntax:head -n File_name
+
+
+
+zip
+The command “zip” is used to compress one or more files and store them in a new file with .zip extension.
+Syntax: zip new_zip_file_name.zip
+Example:zip Files.zip Check.txt Test.txt Output.txt
+
+
+unzip
+Example:unzip Files.zip
+
+
+ls
+The command “ls” displays the list of all directories, folder, and files present in the current directory.
+Syntax:ls
+
+
+clear
+The command “clear” is to clear the screen of Terminal.
+Syntax: clear
